@@ -1,11 +1,13 @@
 import React from "react";
 import "../css/Main.css";
+import { useNavigate } from "react-router-dom";
 export default function Navbar() {
+  const navigate =useNavigate()
   return (
     <div className="navbar-cont">
-      <div className="logo">nexits</div>
+      <div onClick={()=>navigate('/')} className="logo">nexits</div>
       <div className="navbar-element-cont">
-        <div className="element">who is it for</div>
+        <div onClick={()=>navigate('/whoisitfor')} className="element">who is it for</div>
         <div className="element">solutions</div>
         <div className="element">pieces</div>
         <div className="element">blog</div>
