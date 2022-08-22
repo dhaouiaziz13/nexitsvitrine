@@ -7,6 +7,11 @@ import img3 from "../images/img3.png";
 import img7 from "../images/img7.png";
 import img8 from "../images/img8.png";
 import BigFlexCard from "./BigFlexCard";
+import g1 from "../images/g1.png"
+import g2 from "../images/g2.png"
+import g3 from "../images/g3.png"
+import g4 from "../images/g4.png"
+import Footer from "./Footer";
 // import img4 from "../images/img4.png";
 // import img5 from "../images/img5.png";
 // import img6 from "../images/img6.png";
@@ -36,6 +41,12 @@ export default function Main() {
           </div>
         </div>
         <div className="block1-img-cont">
+          <div className="block1-glass">
+            <img src={g1} alt=""/>
+            <img src={g2} alt=""/>
+            <img src={g3} alt=""/>
+            <img src={g4} alt=""/>
+          </div>
           <img
             classname="block1-img"
             src={img1}
@@ -121,6 +132,8 @@ export default function Main() {
       <div className="block6-cont">
         <img src={img7} alt="" />
       </div>
+      {/* footer */}
+      <Footer/>
     </>
   );
 }
