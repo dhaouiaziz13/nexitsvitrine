@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="element">contact</div>
       </div>
       <div className="navbar-login-cont">
-        <div className="element signinbtn">sign-in</div>
+        <div onClick={()=>navigate('/login')} className="element signinbtn">sign-in</div>
         <div className="element book-btn">book a demo</div>
       </div>
     </div>

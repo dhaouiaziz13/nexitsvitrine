@@ -31,7 +31,7 @@ export default function Footer() {
           <span className="footer-first-text">
             Customize the remote office experience by <br /> branding your
             environment to your company standards.<br/> Personalize the
-            <br /> catalogues to the needs of your workforce.
+            catalogues to the needs of your workforce.
           </span>
           <img
             className="footer-social-img"

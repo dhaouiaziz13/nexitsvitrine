@@ -425,7 +425,7 @@
   margin: auto;
   width: 70%;
 }
-.whoelement-card-reverse{
+.whoelement-card-reverse {
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -445,6 +445,112 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
-.whoelement-card-text-p{
+.whoelement-card-text-p {
   color: var(--main-darkergrey-color);
+}
+/* **************************** LOGIN STYLES **************************** */
+.login-cont {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-cont {
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 255, 0.2);
+  height: 634px;
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.forminp {
+  width: 438px;
+  height: 51px;
+  border: 1px solid var(--main-darkergrey-color);
+  margin: 1rem 0;
+ 
+}
+
+.login-inputscnt {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 80%;
+}
+.login-form-title {
+  margin-top: 3rem;
+  font-size: 34px;
+  font-weight: 600;
+}
+.separator{
+  margin: 3% 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sepline{
+  border: 1px solid var(--main-darkergrey-color);
+  width: 438px;
+}
+.sep-text{
+  position: absolute;
+
+  z-index: 3;
+  width: 35px;
+  background-color: var(--main-white-color);
+}
+.oauth-google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.oauth-microsoft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.oauth-google > img {
+  margin-right: 3%;
+}
+.oauth-microsoft > img{
+  margin-right: 3%;
+}
+.signin-btn{
+  border: none;
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.login-rememberme{
+  width: 438px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-forgotpass{
+  color: var(--main-blue-color);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.login-forgotpass:hover{
+  text-decoration: underline;
+}
+.login-remeberme-cont{
+  display: flex;
+  align-items: center;
+  max-width: 438px;
 }
