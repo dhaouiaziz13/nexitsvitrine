@@ -31,7 +31,7 @@ export default function WhoIsItFor() {
       <WhoElement title='Human Ressources'/>
       <WhoElement title='IT Management'/>
       <WhoElement title='Operations'/>
-      <Footer/>
+      <Footer showjoin={true}/>
     </>
   );
 }

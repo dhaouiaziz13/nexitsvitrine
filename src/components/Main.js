@@ -133,7 +133,7 @@ export default function Main() {
         <img src={img7} alt="" />
       </div>
       {/* footer */}
-      <Footer/>
+      <Footer showjoin={true}/>
     </>
   );
 }

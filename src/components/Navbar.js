@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="navbar-element-cont">
         <div onClick={()=>navigate('/whoisitfor')} className="element">who is it for</div>
         <div className="element">solutions</div>
-        <div className="element">pieces</div>
+        <div onClick={()=>navigate('/pricing')} className="element">prices</div>
         <div className="element">blog</div>
         <div className="element">contact</div>
       </div>

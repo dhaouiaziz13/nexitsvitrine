@@ -1,11 +1,11 @@
-import React from "react";
+import React  from "react";
 import "../css/Main.css";
 import social from "../images/social.png";
 import cursor from "../images/imgcursor.png";
-export default function Footer() {
+export default function Footer({showjoin}) {
   return (
     <>
-      <div className="footer-joinwork">
+      <div className={showjoin?"footer-joinwork":"footer-joinwork-hidden"}>
         <div className="footer-joinwork-text">
           <span className="footer-joinwork-header">
             Join the remote work{" "}

@@ -242,6 +242,9 @@
   min-width: 100%;
 }
 /* *********************************** footer styles**************************** */
+.footer-joinwork-hidden{
+  display: none;
+}
 .footer-joinwork {
   padding: 3%;
   height: 50vh;
@@ -473,7 +476,6 @@
   height: 51px;
   border: 1px solid var(--main-darkergrey-color);
   margin: 1rem 0;
- 
 }
 
 .login-inputscnt {
@@ -488,32 +490,32 @@
   font-size: 34px;
   font-weight: 600;
 }
-.separator{
+.separator {
   margin: 3% 0;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sepline{
+.sepline {
   border: 1px solid var(--main-darkergrey-color);
   width: 438px;
 }
-.sep-text{
+.sep-text {
   position: absolute;
 
   z-index: 3;
   width: 35px;
   background-color: var(--main-white-color);
 }
-.oauth-google{
+.oauth-google {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
-.oauth-microsoft{
+.oauth-microsoft {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,10 +524,10 @@
 .oauth-google > img {
   margin-right: 3%;
 }
-.oauth-microsoft > img{
+.oauth-microsoft > img {
   margin-right: 3%;
 }
-.signin-btn{
+.signin-btn {
   border: none;
   background-color: var(--main-blue-color);
   color: var(--main-white-color);
@@ -534,23 +536,109 @@
   align-items: center;
   cursor: pointer;
 }
-.login-rememberme{
+.login-rememberme {
   width: 438px;
- 
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.login-forgotpass{
+.login-forgotpass {
   color: var(--main-blue-color);
   white-space: nowrap;
   cursor: pointer;
 }
-.login-forgotpass:hover{
+.login-forgotpass:hover {
   text-decoration: underline;
 }
-.login-remeberme-cont{
+.login-remeberme-cont {
   display: flex;
   align-items: center;
   max-width: 438px;
+}
+/* ******************************************* pricing styles ******************************/
+.prix-title-cont {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.prix-header {
+  font-size: 40px;
+  font-weight: 800;
+}
+.prix-p {
+  color: var(--main-darkergrey-color);
+}
+.prix-table-cont {
+  /* border:1px solid red; */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.prix-table-row {
+  width: 300px;
+  height: 686px;
+  background-color: #f6f6f6;
+  position: relative;
+  margin: 0 2rem;
+}
+.prix-blue {
+  background-color: var(--main-blue-color);
+  color: #f6f6f6;
+}
+.prix-btn {
+  width: 159px;
+  height: 59px;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: var(--main-blue-color);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6f6f6;
+}
+.prix-grey {
+  background-color: #f6f6f6;
+  color: var(--main-blue-color);
+}
+.prix-row-text-cont {
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prix-title-price{
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-top: 2rem;
+  max-width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+}
+.offerprice{
+  font-size: 18px;
+  font-weight: 600;
+}
+.prix-features{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+  text-align: left;
+}
+.feature-item{
+  margin: 3% 0;
+}
+.entity{
+  color:rgba(17, 78, 247, 1)
 }
